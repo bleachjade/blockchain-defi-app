@@ -4964,6 +4964,63 @@
       "links": {},
       "address": "0xc5AAFC7140777CDA6Eb6c4cC216416e9012f6A97",
       "transactionHash": "0xc8a2cb3ee9fe09b7193211f5aec1469c1b20c828fcdfac54c0cd9d4e1ca5505a"
+    },
+    "42": {
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_spender",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "_value",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x4e7a01326abfa2182f416c6e1a217dea5ed5b35d",
+      "transactionHash": "0x4109cc0b93c7d1fe7a396db319d85d93d725c1a7599a8cc941f4c7f6b8cec089"
     }
   },
   "schemaVersion": "3.2.3",
